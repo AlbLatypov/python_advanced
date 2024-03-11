@@ -1,11 +1,8 @@
-import sys
-n = 5
-list1=[[0]*n]*n
-print(f'Исходный список = {list1},\nразмером {sys.getsizeof(list1)} байт')
-for i in list1:
-    print(f' Адрес в памяти элемента {i} = {id(i)}')
-for j in range(n):
-    list1[n-1][j] = j+1
-for i in list1:
-    print(f'{i}')
-print(f'Результирующий список = {list1},\nразмером {sys.getsizeof(list1)} байт')
+# На вход программе подается число nn. Напишите программу, которая создает и выводит построчно вложенный список,
+# состоящий из nn списков [[1], [1, 2], [1, 2, 3], ..., [1, 2, ..., n]].
+
+n = int(input())
+list1= []
+for i in range(n):
+    list1.append(list(range(1,i+2)))
+print(*list1, sep='\n')
