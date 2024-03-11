@@ -46,8 +46,9 @@ n=int(input())
 result = [[1]]
 
 for i in range(n):
-    k=list([0]+result[i])
-    v=list(result[i]+[0])
-    u = [k[z]+v[z] for z in range(0,len(k),1)]
-    result.append(u)
-print(result[n])
+    elem1=list([0]+result[i])
+    elem2=list(result[i]+[0])
+    u_list = [elem1[z]+elem2[z] for z in range(0,len(elem1),1)]
+    result.append(u_list)
+for i in result[:n]:
+    print(" ".join([str(l) for l in i if l!='[' or l!=']']))
