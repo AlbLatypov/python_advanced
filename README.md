@@ -1,5 +1,11 @@
 # python_advanced
+## This repository is intended to accumulate information on the Stepik course "Python Generation": a course for advanced students. 
 --------------------------------------------------------------------------------------------------------------
-Данный репозиторий предназначен для аккумулирования информации по курсу Stepik "Поколение Python": курс для продвинутых
-Каталоги:
-Lists - содержит документацию из курса по спискам. Использовать в качестве справочника. В перспективе может быть буду отражать интересные примеры, которые прорешал.
+### Directories:
+- __Lists__ - _contains documentation from the Lists course. Reference information on the topic Lists has been posted. Tasks have been committed according to the course._
+    - List_common_docs.pdf - my course guide
+    - TaskN - solving tasks on the course
+
+
+
+
