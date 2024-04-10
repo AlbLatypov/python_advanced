@@ -41,13 +41,7 @@ m, n = int(input()), int(input())
 maths = [input() for _ in range(m)]
 inf = [input() for _ in range(n)]
 if len(set(maths)) < m:
-    # print('math wrong')
     maths[0],inf[0] = inf[0], maths[0]
-# if len(set(inf)) < n:
-    # print('inf wrong')
-
-# print(f'math = {maths}')
-# print(f'inf = {inf}')
 only_maths = len(set(maths) - set(inf))
 only_inf = len(set(inf) - set(maths))
 total = only_maths + only_inf

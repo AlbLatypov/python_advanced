@@ -39,10 +39,8 @@ lessons=int(input())
 # a_set = {frozenset({input() for _ in range(int(input()))}) for _ in range(lessons)}
 a_set = [{input() for _ in range(int(input()))} for _ in range(lessons)]
 result = set(a_set[0])
-# print(a_set)
 for i in range(1,len(a_set)):
     result &= set(a_set[i])
-# print(base_list)
 print(*sorted(result), sep='\n')
 
 # n = int(input())
