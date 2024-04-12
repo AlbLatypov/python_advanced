@@ -1,16 +1,20 @@
 # python_advanced
-## This repository is intended to accumulate information on the Stepik course "Python Generation": a course for advanced students. 
---------------------------------------------------------------------------------------------------------------
-### Course Progress  ![Progress](https://progress-bar.dev/38)
 
-#### Directories:
-- __Lists__ - _contains documentation from the Lists chapter. Reference information on the topic Lists has been posted. Tasks have been committed according to the course._
-    - List_common_docs.pdf - my course guide
-    - TaskN - solving tasks on the course
+## Репозиторий содержит этапы прохождения курса Stepik Поколение Python :курс для продвинутых. студент Латыпов А.Ф.
 
-- __Sets__ - _Contains information about the Sets chapter: documenation and tasks._
+### Course Progress  ![Progress](https://progress-bar.dev/40)
 
-- __bool__ - Contains information about the bool chapter: documenation
+#### Организация каталогов:
+- __Lists__ - _Содержит документация по разделу Списки и выполенные задачи раздела._
+    - List_common_docs.pdf - файл
+    - TaskN - решенные задачи по курсу
+
+- __Sets__ - _Содержит документацию и по разделу Множества и выполненные задачи раздела_
+
+- __bool__ - _Содержит документацию по разделу. Задач нет._
+
+- __Tuples__ - _Содержит документацию по разделу Кортежи и выполненные задачи раздела._
+
 
 
 
