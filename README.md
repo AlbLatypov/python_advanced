@@ -2,7 +2,7 @@
 
 ## Репозиторий содержит этапы прохождения курса Stepik Поколение Python :курс для продвинутых. студент Латыпов А.Ф.
 
-### Course Progress  ![Progress](https://progress-bar.dev/43)
+### Course Progress  ![Progress](https://progress-bar.dev/49)
 
 #### Организация каталогов:
 - __Lists__ - _Содержит документация по разделу Списки и выполенные задачи раздела._
