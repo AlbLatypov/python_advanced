@@ -22,16 +22,16 @@ Sample Output 1:
 YES
 '''
 # нужны 2 словаря: ключ - буква, значение - количество вхождений буквы в слово.
-result = 'YES'
-st1=input()
-st2=input()
+st1,st2=input(), input()
 st1 = {i:[st1.count(i)] for i in set(st1)}
 st2 = {i:[st2.count(i)] for i in set(st2)}
-for i in set(st1):
-    if st1.get(i,'') != st2.get(i,''):
-        result = 'NO'
-        break
-print(result)
+print('NO' if st1 != st2 else 'YES')
+# for i in set(st1):
+#     if st1.get(i,'') != st2.get(i,''):
+#         result = 'NO'
+#         break
+# print(result)
+
 
 #Решение следующей задачи, аналогичная в принципе
 # import re
