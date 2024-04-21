@@ -33,6 +33,7 @@ for i in lst[0]:
     if len(i) >= maxlen:
         print(f'{i}')
 
+#----Хорошее решение---------
 # with open('words.txt', 'r') as input_file:
 #     words = input_file.read().split()
 #     mxlen = len(max(words, key=len))

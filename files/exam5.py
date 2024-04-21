@@ -87,9 +87,13 @@ if len(mset)>0:
 else:
     print(best_team)
 
-file_name = input()
-prev_str = ''
-def_names = []
+
+#-------------------Хорошие решения с курса. Разобрать.-------------------------------------------
+
+
+# file_name = input()
+# prev_str = ''
+# def_names = []
 
 # with open(file_name, 'r') as input_file:
 #     for line in input_file:
@@ -104,7 +108,7 @@ def_names = []
 # else:
 #     print('Best Programming Team')
 
-
+#-----------------------------------------------------------------------------------------
 # with open(input(), encoding='utf-8') as code:
 #     not_comm, preline = [], '_'
     
