@@ -27,3 +27,10 @@ def greet(n,*args):
 print(greet('Timur'))
 print(greet('Timur','Rembo'))
 print(greet('Ruslan', 'Larisa', 'Sveta'))
+
+
+
+
+# def greet(name, *args):
+#     return f'Hello, {" and ".join((name,) + args)}!'
+
