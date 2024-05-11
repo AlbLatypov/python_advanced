@@ -2,7 +2,7 @@
 
 ## [Этапы прохождения курса Stepik Поколение Python :курс для продвинутых. студент Латыпов А.Ф.](https://stepik.org/68343)
 
-### Course Progress  ![Progress](https://progress-bar.dev/76)
+### Course Progress  ![Progress](https://progress-bar.dev/77)
 
 #### Организация каталогов:
 
@@ -33,7 +33,9 @@
 
     - [Документация по теме](/files/docs/)
     - [Задачи по теме](/files/tasks/)
+    
 - __Common__ - Содержит решение задач из раздела "Повторяем основные конструкции"
+    - [Задачи по теме](/Common/)
 
 - __Modules__ - Содержит решение задач из раздела "Модули": random, stringA
 
