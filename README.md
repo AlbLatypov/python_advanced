@@ -2,7 +2,7 @@
 
 ## [Этапы прохождения курса Stepik Поколение Python :курс для продвинутых. студент Латыпов А.Ф.](https://stepik.org/68343)
 
-### Course Progress  ![Progress](https://progress-bar.dev/85)
+### Course Progress  ![Progress](https://progress-bar.dev/88)
 
 ### 📄[Сертификат Stepik](https://stepik.org/cert/2460283)
 
